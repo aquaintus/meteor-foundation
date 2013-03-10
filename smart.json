@@ -1,0 +1,9 @@
+{
+  "name": "foundation",
+  "description": "the most advanced responsive front-end framework in the world",
+  "homepage": "https://github.com/aquaintus/meteor-foundation.git",
+  "author": "aquaintus <contact@aquaintus.com> (http://aquaintus.com/",
+  "version": "4.0.5",
+  "git": "https://github.com/aquaintus/meteor-foundation.git",
+  "packages": {}
+}
