@@ -4,32 +4,33 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('jquery', 'client');
-  // css
-  api.add_files('css/foundation.css', 'client');
-  api.add_files('css/foundation.min.css', 'client');
-  api.add_files('css/normalize.css', 'client');
-  // images
-  
-  // javascript
-  api.add_files('js/foundation/foundation.alerts.js', 'client');
-  api.add_files('js/foundation/foundation.clearing.js', 'client');
-  api.add_files('js/foundation/foundation.cookie.js', 'client');
-  api.add_files('js/foundation/foundation.dropdown.js', 'client');
-  api.add_files('js/foundation/foundation.forms.js', 'client');
-  api.add_files('js/foundation/foundation.joyride.js', 'client');
-  api.add_files('js/foundation/foundation.js', 'client');
-  api.add_files('js/foundation/foundation.magellan.js', 'client');
-  api.add_files('js/foundation/foundation.orbit.js', 'client');
-  api.add_files('js/foundation/foundation.placeholder.js', 'client');
-  api.add_files('js/foundation/foundation.reveal.js', 'client');
-  api.add_files('js/foundation/foundation.section.js', 'client');
-  api.add_files('js/foundation/foundation.tooltips.js', 'client');
-  api.add_files('js/foundation/foundation.topbar.js', 'client');
-  api.add_files('js/foundation.min.js', 'client');
-  api.add_files('js/vendor/custom.modernizr.js', 'client');
-  api.add_files('js/vendor/jquery.js', 'client');
-  api.add_files('js/vendor/zepto.js', 'client');
-  // text
-  api.add_files('humans.txt', 'client');
-  api.add_files('robots.txt', 'client');
+  api.add_files([
+    // css
+    'css/foundation.css',
+    'css/foundation.min.css',
+    'css/normalize.css'
+    // images
+    // javascript
+    'js/foundation/foundation.alerts.js',
+    'js/foundation/foundation.clearing.js',
+    'js/foundation/foundation.cookie.js',
+    'js/foundation/foundation.dropdown.js',
+    'js/foundation/foundation.forms.js',
+    'js/foundation/foundation.joyride.js',
+    'js/foundation/foundation.js',
+    'js/foundation/foundation.magellan.js',
+    'js/foundation/foundation.orbit.js',
+    'js/foundation/foundation.placeholder.js',
+    'js/foundation/foundation.reveal.js',
+    'js/foundation/foundation.section.js',
+    'js/foundation/foundation.tooltips.js',
+    'js/foundation/foundation.topbar.js',
+    'js/foundation.min.js',
+    'js/vendor/custom.modernizr.js',
+    'js/vendor/jquery.js',
+    'js/vendor/zepto.js'
+    //text
+    'humans.txt',
+    'robots.txt',
+  ], 'client');
 });
