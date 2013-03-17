@@ -8,7 +8,7 @@ Package.on_use(function (api) {
     // css
     'css/foundation.css',
     'css/foundation.min.css',
-    'css/normalize.css'
+    'css/normalize.css',
     // images
     // javascript
     'js/foundation/foundation.alerts.js',
@@ -28,7 +28,7 @@ Package.on_use(function (api) {
     'js/foundation.min.js',
     'js/vendor/custom.modernizr.js',
     'js/vendor/jquery.js',
-    'js/vendor/zepto.js'
+    'js/vendor/zepto.js',
     //text
     'humans.txt',
     'robots.txt',
