@@ -3,20 +3,24 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('jquery', 'client');
+  api.use('zepto', 'client');
+
   api.add_files([
-    // css
+    'js/vendor/custom.modernizr.js',
+    'js/vendor/jquery.js',
+    'js/vendor/zepto.js'
+  ], 'client');
+
+  api.add_files([
+    'js/foundation.min.js',
+    'js/foundation/foundation.js'
+  ], 'client');
+
+  api.add_files([
     'css/foundation.css',
     'css/foundation.min.css',
     'css/normalize.css',
-    // images
-    // javascript
-    'js/vendor/custom.modernizr.js',
-    'js/vendor/jquery.js',
-    'js/vendor/zepto.js',
-    'js/foundation/foundation.js',
-    'js/foundation.min.js',
-
+    'humans.txt',
     'js/foundation/foundation.alerts.js',
     'js/foundation/foundation.clearing.js',
     'js/foundation/foundation.cookie.js',
@@ -30,8 +34,6 @@ Package.on_use(function (api) {
     'js/foundation/foundation.section.js',
     'js/foundation/foundation.tooltips.js',
     'js/foundation/foundation.topbar.js',
-    //text
-    'humans.txt',
-    'robots.txt',
+    'robots.txt'
   ], 'client');
 });
